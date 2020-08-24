@@ -1,8 +1,8 @@
 #require "emoticons.yml"
 def load_library
   # code goes heree
-hash = {}
-  hash = YAML.load(File.read("Translator"))
+
+  emoticons = YAML.load_file('lib/emoticons.yml')
 
 end
 
