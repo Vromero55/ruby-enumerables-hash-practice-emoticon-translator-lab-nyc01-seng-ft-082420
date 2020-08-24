@@ -2,7 +2,7 @@
 def load_library
   # code goes heree
 hash = {}
-  hash = YAML.load(File.read("emoticons"))
+  hash = YAML.load(File.read("Translator"))
 
 end
 
