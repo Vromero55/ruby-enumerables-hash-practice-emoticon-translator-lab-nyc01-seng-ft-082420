@@ -2,8 +2,8 @@
 def load_library
   # code goes heree
 
-  emoticons = load_library("./lib/emoticons.yml")
-  emoticons
+  load_library("./lib/emoticons.yml")
+  
 end
 
 def get_japanese_emoticon
